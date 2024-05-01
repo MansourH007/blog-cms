@@ -12,8 +12,8 @@
     </header>
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="post-submission.html">New Post</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="post-submission.php">New Post</a></li>
         </ul>
     </nav>
     <main>
