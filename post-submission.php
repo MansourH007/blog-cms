@@ -1,21 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New Post Submission</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+<?php
+    include 'header.php';
+?>
+
 <body>
-    <header>
-        <h1>Welcome to My Blog</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="post-submission.php">New Post</a></li>
-        </ul>
-    </nav>
+   
     <main>
         <h2>New Post Submission</h2>
         <form action="#" method="post">
