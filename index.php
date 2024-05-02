@@ -10,7 +10,14 @@
     <main>
         <h2>All Posts</h2>
         <ul>
-            <li><a href="post.php">First Post</a></li>
+           <?php
+                $postTitles = getPostTitlesFromDatabase ();
+
+                foreach($postTitles as $postTitle) {
+                    echo "<li><a href = 'post.php'>" . $postTitle . "</a></li>";
+                }
+           ?>
+
         </ul>
     </main>
     <footer>
