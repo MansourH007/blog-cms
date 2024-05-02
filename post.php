@@ -1,9 +1,33 @@
 <?php
     include 'header.php';
+
+    
+function getPostDetailsFromDatabase() {
+    // Hardcoded post details
+    $PostDetails = array(
+        "title" => "Blog Post 1",
+        "content" => "My First Blog Post"
+        "author" => "John Doe",
+        "date" => "January 1, 2024");
+
+        return %PostDetails;
+}
+?>
+
 ?>
 
     <main>
-        <h2>First Post</h2>
+        
+        <?php
+        $postDetails = getPostDetailsFromDatabase ();
+        ?>  
+
+    <h1> <?php echo $postDetails ["title"]; ?> <h1>
+    <div> <?php echo $postDetails ["author"]; ?> <div>
+        <div> <?php $PostDetails ["date"]; ?> <div>
+            <div> <?php PostDetails ["content"]; ?> <div>
+
+    First Post</h2>
         <div class="post-content">
             <h3>Title: First Post</h3>
             <div class="author">Author: John Doe</div>
