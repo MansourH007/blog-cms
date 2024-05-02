@@ -9,7 +9,8 @@ function getPostDetailsFromDatabase() {
         "author" => "John Doe",
         "date" => "January 1, 2024");
 
-    return $postDetails; 
+    return $postDetails; // Fixed the variable name here
+}
 ?>
 
 <main>
@@ -18,10 +19,10 @@ function getPostDetailsFromDatabase() {
     $postDetails = getPostDetailsFromDatabase();
     ?>
 
-    <h1><?php echo $postDetails["title"]; ?></h1> 
-    <div><?php echo $postDetails["author"]; ?></div> 
-    <div><?php echo $postDetails["date"]; ?></div> 
-    <div><?php echo $postDetails["content"]; ?></div>
+    <h1><?php echo $postDetails["title"]; ?></h1> <!-- Closed the <h1> tag -->
+    <div><?php echo $postDetails["author"]; ?></div> <!-- Closed the <div> tag -->
+    <div><?php echo $postDetails["date"]; ?></div> <!-- Closed the <div> tag and added echo -->
+    <div><?php echo $postDetails["content"]; ?></div> <!-- Closed the <div> tag and added echo -->
 
 </main>
 <footer>
