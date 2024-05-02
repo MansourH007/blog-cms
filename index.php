@@ -1,5 +1,10 @@
 <?php
     include 'header.php';
+
+    function getPostTitlesFromDatabase () {
+        $postTitles = array ("Blog Post 1", "Blog Post 2", "Blog Post 3");
+        return $postTitles;
+    }
 ?>
 
     <main>
